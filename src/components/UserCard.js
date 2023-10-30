@@ -1,8 +1,16 @@
+const users = [`John`, `Bob`, `Alex`, `Sabina`, `Julia`];
+
+
 function UserCard() {
     return (
         <>
-            <div>User 1</div>
-            <div>User 2</div>
+            {
+                users.map(item => {
+                    return (
+                        <div>{item}</div>
+                    )
+                })
+            }
         </>
     );
 }
