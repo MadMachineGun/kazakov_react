@@ -21,7 +21,7 @@ function App() {
               </main>
           </section>
           <footer className="Footer">
-              <p>&copy; 2023 React Website</p>
+              <p>&copy; React Website</p>
           </footer>
       </>
   );
