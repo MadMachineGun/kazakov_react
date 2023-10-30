@@ -1,7 +1,7 @@
 
 function App() {
   return (
-      <div className="App">
+      <>
           <header className="Header">
               <h1>Header Section</h1>
           </header>
@@ -12,6 +12,7 @@ function App() {
                       <li><a href="#">Item 1</a></li>
                       <li><a href="#">Item 2</a></li>
                       <li><a href="#">Item 3</a></li>
+
                   </ul>
               </aside>
               <main className="Content">
@@ -22,7 +23,7 @@ function App() {
           <footer className="Footer">
               <p>&copy; 2023 React Website</p>
           </footer>
-      </div>
+      </>
   );
 }
 
