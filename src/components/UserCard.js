@@ -1,4 +1,4 @@
-const users = [`John`, `Bob`, `Alex`, `Sabina`, `Julia`];
+const users = [{name: `John`, id: 1},{name: `Bob`, id: 2}, {name: `Alex`, id: 3}, {name: `Sabina`, id: 4},{name: `Julia`, id: 5}];
 
 
 function UserCard() {
@@ -6,9 +6,7 @@ function UserCard() {
         <>
             {
                 users.map(item => {
-                    return (
-                        <div>{item}</div>
-                    )
+                    return <div key={item.id}>{item.name}</div>
                 })
             }
         </>
