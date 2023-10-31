@@ -1,0 +1,9 @@
+.mainwrapper {
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    background: #91c2ea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

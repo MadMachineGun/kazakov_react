@@ -1,13 +1,13 @@
-import UserCard from "./components/UserCard";
-import CustomButton from "./components/CustomButton";
 import Header from "./components/Header/Header";
+import SideBar from "./components/SideBar/SideBar";
+import MainWrapper from "./components/MainWrapper/MainWrapper";
 
 function App() {
     return (
         <>
             <Header/>
-            <UserCard/>
-            <CustomButton/>
+            <SideBar/>
+            <MainWrapper/>
         </>
     );
 }
