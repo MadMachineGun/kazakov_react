@@ -1,4 +1,4 @@
-import './mainwrapper.css';
+import '../../styles/mainwrapper.css';
 
 function MainWrapper() {
     return (
